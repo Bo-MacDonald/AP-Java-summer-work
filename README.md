@@ -11,7 +11,7 @@ This set of original data is publically available for download on the website Ka
 
 ## Analyzing the CSV
 Each entry within this dataset represents a Super Bowl that took place anytime from 2014-2023. The coloumns and appropriate Java fields and syntax are as follows:
-| Column | Type of Data | Context | Field (Java) | Type of Data (Java) |
+| Column | Type of Data | Context | Field in Java | Type of Data in Java |
 |-|-|-|-|-|
 | `Date` | Ordinal | The date on which the Super Bowl occured | 'date' | 'String' |
 | `SB` | Ordinal | The Roman numeral title of the Super Bowl | 'title' | 'String' |
