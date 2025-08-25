@@ -45,6 +45,7 @@ Each entry within this dataset represents a Super Bowl that took place anytime f
 │ + setWinAVG(): void                 │
 │ + setLoser(): void                  │
 │ + setLoserAVG(): void               │
-
+│ + findAVGOfGame(): double           │
+│ + compareTeams(): String            │
 └─────────────────────────────────────┘
 ```
