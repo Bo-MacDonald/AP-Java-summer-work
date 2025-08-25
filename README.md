@@ -16,7 +16,7 @@ Each entry within this dataset represents a Super Bowl that took place anytime f
 | `Date` | Ordinal | The date on which the Super Bowl occured | 'date' | 'String' |
 | `SB` | Ordinal | The Roman numeral title of the Super Bowl | 'title' | 'String' |
 | `Winner` | Categorical | The name of the winning team | 'winner' | 'String' |
-| `Winner Avg R Yds` | Numerical | The average rushing yards of the winning team | 'winPTS' | 'double' |
+| `Winner Avg R Yds` | Numerical | The average rushing yards of the winning team | 'winAVG' | 'double' |
 | `Loser` | Categorical | The name of the losing team | 'loser' | 'String' |
-| `Loser Avg R Yds` | Numerical | The average rushing yards of the winning team | 'losePTS' | 'double' |
+| `Loser Avg R Yds` | Numerical | The average rushing yards of the winning team | 'loseAVG' | 'double' |
 
