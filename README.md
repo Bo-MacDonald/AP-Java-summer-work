@@ -11,7 +11,7 @@ This set of original data is publically available for download on the website Ka
 
 ## Analyzing the CSV
 Each entry within this dataset represents a Super Bowl that took place anytime from 2014-2023. The coloumns and appropriate Java fields and syntax are as follows:
-| Column | Type of Data | Context | Field in Java | Type of Data in Java |
+| Coloumn | Type of Data | Context | Field in Java | Type of Data in Java |
 |-|-|-|-|-|
 | `Date` | Ordinal | The date on which the Super Bowl occured | 'date' | 'String' |
 | `SB` | Ordinal | The Roman numeral title of the Super Bowl | 'title' | 'String' |
@@ -20,3 +20,31 @@ Each entry within this dataset represents a Super Bowl that took place anytime f
 | `Loser` | Categorical | The name of the losing team | 'loser' | 'String' |
 | `Loser Avg R Yds` | Numerical | The average rushing yards of the winning team | 'loseAVG' | 'double' |
 
+### UML Diagram
+```
+┌─────────────────────────────────────┐
+│              SuperBowl              │
+├─────────────────────────────────────┤
+│ - date: String                      │
+│ - title: String                     │
+│ - winner: String                    │
+│ - winAVG: double                    │
+│ - loser: String                     │
+│ - loseAVG: double                   │
+├─────────────────────────────────────┤
+│ + SuperBowl()                       │
+│ + getDate(): String                 │
+│ + getTitle(): String                │
+│ + getWinner(): String               │
+│ + getWinAVG(): double               │
+│ + getLoser(): String                │
+│ + getLoserAVG(): double             │
+│ + setDate(): void                   │
+│ + setTitle(): void                  │
+│ + setWinner(): void                 │
+│ + setWinAVG(): void                 │
+│ + setLoser(): void                  │
+│ + setLoserAVG(): void               │
+
+└─────────────────────────────────────┘
+```
