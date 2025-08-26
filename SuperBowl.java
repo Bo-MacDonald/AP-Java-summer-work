@@ -20,7 +20,7 @@ public class SuperBowl {
   }
 
   public void compareTeams() {
-    double difference = Math.max(winnerAVG, loserAVG) - Math.min(winnerAVG, loserAVG);
+    double difference = ((int)(Math.abs(winnerAVG - loserAVG) * 100.0))/100.0;
     if (winnerAVG >= loserAVG) System.out.println("The " + winner + " beat the " + loser + " in SuperBowl " + title + " on " + date + " and had a better average rushing yards stat by " + difference + " yards per play.");
     if (winnerAVG < loserAVG) System.out.println("Despite the fact that the " + winner + " won SuperBowl " + title + " on " + date + ", the " + loser + " still had a better average rushing yards stat by " + difference + " yards per play.");
   }
