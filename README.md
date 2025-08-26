@@ -33,6 +33,7 @@ Each entry within this dataset represents a Super Bowl that took place anytime f
 │ - loseAVG: double                   │
 ├─────────────────────────────────────┤
 │ + SuperBowl()                       │
+│ + SuperBowl(parameters)             │
 │ + getDate(): String                 │
 │ + getTitle(): String                │
 │ + getWinner(): String               │
