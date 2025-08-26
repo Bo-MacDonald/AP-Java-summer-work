@@ -1,1 +1,5 @@
-import 
+/*NOTE: I do not have outside knowledge about data importation in coding/Java, and with the accidental non-inclusion of instructions or an assignment related to learning how to import data from CSV's, I
+felt like I wasn't prepared enough to do this part of the project. I was fortunate enough to receive some guidance from a fellow classmate on the project, and while I could've just copied the majority of their
+work and/or use AI to teach me how to do it, I ultimately decided not to, as A) I felt as though rolling into class into class on Day 1 acting like I knew what I was doing would result in me being lost
+for the rest of the year trying to catch up, and B) it didn't feel like an honest choice (also, AI is unpredicatable in the guidance it gives, and seeing as though the few instructions provided were limited,
+the model could give me/teach me information I am not supposed to know). Therefore, my choice remains to skip this part for now until I can actually learn how to do it when class starts*/
